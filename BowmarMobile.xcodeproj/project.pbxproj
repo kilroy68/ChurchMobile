@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		4D0C6C5614B8BC070070DE0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0C6C5514B8BC070070DE0B /* Foundation.framework */; };
-		4D0C6C5814B8BC070070DE0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0C6C5714B8BC070070DE0B /* UIKit.framework */; };
+		4D0C6C5814B8BC070070DE0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0C6C5714B8BC070070DE0B /* UIKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		4D0C6C5A14B8BC070070DE0B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0C6C5914B8BC070070DE0B /* CoreGraphics.framework */; };
 		4D0C6C5C14B8BC070070DE0B /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0C6C5B14B8BC070070DE0B /* AddressBook.framework */; };
 		4D0C6C5E14B8BC070070DE0B /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0C6C5D14B8BC070070DE0B /* AddressBookUI.framework */; };
 		4D0C6C6014B8BC070070DE0B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0C6C5F14B8BC070070DE0B /* AudioToolbox.framework */; };
-		4D0C6C6214B8BC070070DE0B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0C6C6114B8BC070070DE0B /* AVFoundation.framework */; };
+		4D0C6C6214B8BC070070DE0B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0C6C6114B8BC070070DE0B /* AVFoundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		4D0C6C6414B8BC070070DE0B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0C6C6314B8BC070070DE0B /* CoreLocation.framework */; };
 		4D0C6C6614B8BC070070DE0B /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0C6C6514B8BC070070DE0B /* MediaPlayer.framework */; };
 		4D0C6C6814B8BC070070DE0B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0C6C6714B8BC070070DE0B /* QuartzCore.framework */; };
 		4D0C6C6A14B8BC070070DE0B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0C6C6914B8BC070070DE0B /* SystemConfiguration.framework */; };
 		4D0C6C6C14B8BC070070DE0B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0C6C6B14B8BC070070DE0B /* MobileCoreServices.framework */; };
-		4D0C6C6E14B8BC070070DE0B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0C6C6D14B8BC070070DE0B /* CoreMedia.framework */; };
+		4D0C6C6E14B8BC070070DE0B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0C6C6D14B8BC070070DE0B /* CoreMedia.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		4D0C6C7414B8BC080070DE0B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D0C6C7214B8BC080070DE0B /* InfoPlist.strings */; };
 		4D0C6C7614B8BC080070DE0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0C6C7514B8BC080070DE0B /* main.m */; };
 		4D0C6C7914B8BC080070DE0B /* PhoneGap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0C6C7814B8BC080070DE0B /* PhoneGap.framework */; };
@@ -33,6 +33,12 @@
 		4D0C6C9014B8BC090070DE0B /* Capture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4D0C6C8F14B8BC090070DE0B /* Capture.bundle */; };
 		4D0C6C9214B8BC090070DE0B /* PhoneGap.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D0C6C9114B8BC090070DE0B /* PhoneGap.plist */; };
 		4D0C6C9614B8BC090070DE0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0C6C9514B8BC090070DE0B /* AppDelegate.m */; };
+		4D0C6C9F14B8C5200070DE0B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0C6C9E14B8C5200070DE0B /* Default.png */; };
+		4D0C6CA114B8C52B0070DE0B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0C6CA014B8C52B0070DE0B /* Default@2x.png */; };
+		4D0C6CA314B8C6460070DE0B /* BowmarIcon57.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0C6CA214B8C6460070DE0B /* BowmarIcon57.png */; };
+		4D0C6CA514B8C6820070DE0B /* BowmarIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0C6CA414B8C6820070DE0B /* BowmarIcon.png */; };
+		4D0C6CA714B8C78E0070DE0B /* BowmarIcon72.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0C6CA614B8C78E0070DE0B /* BowmarIcon72.png */; };
+		4D0C6CA914B8C9D70070DE0B /* www in Resources */ = {isa = PBXBuildFile; fileRef = 4D0C6CA814B8C9D70070DE0B /* www */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,10 +56,10 @@
 		4D0C6C6914B8BC070070DE0B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		4D0C6C6B14B8BC070070DE0B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		4D0C6C6D14B8BC070070DE0B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		4D0C6C7114B8BC080070DE0B /* BowmarMobile-Info.plist */ = {isa = PBXFileReference; path = "BowmarMobile-Info.plist"; sourceTree = "<group>"; };
+		4D0C6C7114B8BC080070DE0B /* BowmarMobile-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BowmarMobile-Info.plist"; sourceTree = "<group>"; };
 		4D0C6C7314B8BC080070DE0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4D0C6C7514B8BC080070DE0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4D0C6C7714B8BC080070DE0B /* BowmarMobile-Prefix.pch */ = {isa = PBXFileReference; path = "BowmarMobile-Prefix.pch"; sourceTree = "<group>"; };
+		4D0C6C7714B8BC080070DE0B /* BowmarMobile-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BowmarMobile-Prefix.pch"; sourceTree = "<group>"; };
 		4D0C6C7814B8BC080070DE0B /* PhoneGap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhoneGap.framework; path = /Users/Shared/PhoneGap/Frameworks/PhoneGap.framework; sourceTree = "<absolute>"; };
 		4D0C6C7D14B8BC080070DE0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4D0C6C8114B8BC080070DE0B /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -64,9 +70,15 @@
 		4D0C6C8D14B8BC080070DE0B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/splash/Default@2x.png"; sourceTree = "<group>"; };
 		4D0C6C8F14B8BC090070DE0B /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
 		4D0C6C9114B8BC090070DE0B /* PhoneGap.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PhoneGap.plist; sourceTree = "<group>"; };
-		4D0C6C9414B8BC090070DE0B /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		4D0C6C9414B8BC090070DE0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		4D0C6C9514B8BC090070DE0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		4D0C6C9814B8BC090070DE0B /* README */ = {isa = PBXFileReference; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		4D0C6C9814B8BC090070DE0B /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		4D0C6C9E14B8C5200070DE0B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4D0C6CA014B8C52B0070DE0B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4D0C6CA214B8C6460070DE0B /* BowmarIcon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BowmarIcon57.png; path = ../BowmarIcon57.png; sourceTree = "<group>"; };
+		4D0C6CA414B8C6820070DE0B /* BowmarIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BowmarIcon.png; path = ../BowmarIcon.png; sourceTree = "<group>"; };
+		4D0C6CA614B8C78E0070DE0B /* BowmarIcon72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BowmarIcon72.png; path = ../BowmarIcon72.png; sourceTree = "<group>"; };
+		4D0C6CA814B8C9D70070DE0B /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +116,9 @@
 		4D0C6C4314B8BC060070DE0B = {
 			isa = PBXGroup;
 			children = (
+				4D0C6CA814B8C9D70070DE0B /* www */,
+				4D0C6CA014B8C52B0070DE0B /* Default@2x.png */,
+				4D0C6C9E14B8C5200070DE0B /* Default.png */,
 				4D0C6C6F14B8BC070070DE0B /* BowmarMobile */,
 				4D0C6C5414B8BC070070DE0B /* Frameworks */,
 				4D0C6C5214B8BC070070DE0B /* Products */,
@@ -193,6 +208,9 @@
 		4D0C6C8314B8BC080070DE0B /* icons */ = {
 			isa = PBXGroup;
 			children = (
+				4D0C6CA414B8C6820070DE0B /* BowmarIcon.png */,
+				4D0C6CA214B8C6460070DE0B /* BowmarIcon57.png */,
+				4D0C6CA614B8C78E0070DE0B /* BowmarIcon72.png */,
 				4D0C6C8414B8BC080070DE0B /* icon.png */,
 				4D0C6C8614B8BC080070DE0B /* icon@2x.png */,
 				4D0C6C8814B8BC080070DE0B /* icon-72.png */,
@@ -291,6 +309,12 @@
 				4D0C6C8E14B8BC080070DE0B /* Default@2x.png in Resources */,
 				4D0C6C9014B8BC090070DE0B /* Capture.bundle in Resources */,
 				4D0C6C9214B8BC090070DE0B /* PhoneGap.plist in Resources */,
+				4D0C6C9F14B8C5200070DE0B /* Default.png in Resources */,
+				4D0C6CA114B8C52B0070DE0B /* Default@2x.png in Resources */,
+				4D0C6CA314B8C6460070DE0B /* BowmarIcon57.png in Resources */,
+				4D0C6CA514B8C6820070DE0B /* BowmarIcon.png in Resources */,
+				4D0C6CA714B8C78E0070DE0B /* BowmarIcon72.png in Resources */,
+				4D0C6CA914B8C9D70070DE0B /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +438,7 @@
 				GCC_PREFIX_HEADER = "BowmarMobile/BowmarMobile-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "PHONEGAP_FRAMEWORK=YES";
 				INFOPLIST_FILE = "BowmarMobile/BowmarMobile-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					UIKit,
@@ -425,7 +450,7 @@
 					/usr/lib/libSystem.B.dylib,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -441,6 +466,7 @@
 				GCC_PREFIX_HEADER = "BowmarMobile/BowmarMobile-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "PHONEGAP_FRAMEWORK=YES";
 				INFOPLIST_FILE = "BowmarMobile/BowmarMobile-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					UIKit,
@@ -452,7 +478,7 @@
 					/usr/lib/libSystem.B.dylib,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
