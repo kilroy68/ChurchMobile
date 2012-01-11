@@ -8,7 +8,8 @@ Bowmar.Viewport = Ext.extend(Ext.TabPanel, {
                                    },
                                    type: 'dark',
                                    sortable: true,
-                             items: [{ xtype: 'services'},
+                             items: [{ xtype: 'home'},
+                                     { xtype: 'services'},
                                      { xtype: 'calendar'},
                                      { xtype: 'polls'}
                                      ],
