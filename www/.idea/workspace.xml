@@ -36,10 +36,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="calendarDetail.js" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="calendarDetail.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/calendarDetail.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="82" column="39" selection-start="2283" selection-end="2283" vertical-scroll-proportion="0.50104386">
+                <state line="82" column="39" selection-start="2283" selection-end="2283" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -63,10 +63,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Viewport.js" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="Viewport.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/Viewport.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="1" column="15" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
+                <state line="13" column="28" selection-start="278" selection-end="278" vertical-scroll-proportion="0.20082389">
                   <folding />
                 </state>
               </provider>
@@ -133,18 +133,18 @@
         <option value="$PROJECT_DIR$/app/models/calendar.js" />
         <option value="$PROJECT_DIR$/app/app.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/app/views/Viewport.js" />
         <option value="$PROJECT_DIR$/app/models/calendarModel.js" />
         <option value="$PROJECT_DIR$/app/views/calendar.js" />
         <option value="$PROJECT_DIR$/app/views/polls.js" />
         <option value="$PROJECT_DIR$/app/app.css" />
         <option value="$PROJECT_DIR$/app/views/calendarDetail.js" />
+        <option value="$PROJECT_DIR$/app/views/Viewport.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2295" />
-    <option name="y" value="77" />
+    <option name="x" value="2030" />
+    <option name="y" value="413" />
     <option name="width" value="1699" />
     <option name="height" value="1117" />
   </component>
@@ -337,7 +337,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2295" y="77" width="1699" height="1117" extended-state="0" />
+    <frame x="2030" y="413" width="1699" height="1117" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -449,13 +449,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Viewport.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="15" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/calendar.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
@@ -500,7 +493,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/calendarDetail.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="39" selection-start="2283" selection-end="2283" vertical-scroll-proportion="0.50104386">
+        <state line="82" column="39" selection-start="2283" selection-end="2283" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Viewport.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="28" selection-start="278" selection-end="278" vertical-scroll-proportion="0.20082389">
           <folding />
         </state>
       </provider>
