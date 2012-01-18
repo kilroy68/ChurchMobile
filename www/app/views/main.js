@@ -1,4 +1,4 @@
-Bowmar.Viewport = Ext.extend(Ext.TabPanel, {
+Bowmar.Main = Ext.extend(Ext.TabPanel, {
     id:'main',
     fullscreen:true,
     tabBar:{
@@ -17,7 +17,7 @@ Bowmar.Viewport = Ext.extend(Ext.TabPanel, {
     ],
 
     initComponent:function () {
-        Bowmar.Viewport.superclass.initComponent.apply(this, arguments);
+        Bowmar.Main.superclass.initComponent.apply(this, arguments);
     }
 });
 

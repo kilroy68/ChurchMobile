@@ -12,8 +12,8 @@
 	<string>icon.png</string>
 	<key>CFBundleIconFiles</key>
 	<array>
-		<string>BowmarIcon57.png</string>
-		<string>BowmarIcon.png</string>
+		<string>BowmarChurch57.png</string>
+		<string>BowmarChurch.png</string>
 		<string>BowmarIcon72.png</string>
 	</array>
 	<key>CFBundleIcons</key>
@@ -22,12 +22,12 @@
 		<dict>
 			<key>CFBundleIconFiles</key>
 			<array>
-				<string>BowmarIcon57.png</string>
-				<string>BowmarIcon.png</string>
+				<string>BowmarChurch57.png</string>
+				<string>BowmarChurch.png</string>
 				<string>BowmarIcon72.png</string>
 			</array>
 			<key>UIPrerenderedIcon</key>
-			<false/>
+			<true/>
 		</dict>
 	</dict>
 	<key>CFBundleIdentifier</key>
@@ -46,8 +46,6 @@
 	<string>1.0</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>NSMainNibFile</key>
-	<string></string>
 	<key>NSMainNibFile~ipad</key>
 	<string></string>
 	<key>UISupportedInterfaceOrientations</key>

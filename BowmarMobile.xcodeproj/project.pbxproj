@@ -24,7 +24,6 @@
 		4D0C6C7614B8BC080070DE0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0C6C7514B8BC080070DE0B /* main.m */; };
 		4D0C6C7914B8BC080070DE0B /* PhoneGap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0C6C7814B8BC080070DE0B /* PhoneGap.framework */; };
 		4D0C6C7E14B8BC080070DE0B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D0C6C7C14B8BC080070DE0B /* Localizable.strings */; };
-		4D0C6C8214B8BC080070DE0B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D0C6C8014B8BC080070DE0B /* Localizable.strings */; };
 		4D0C6C8514B8BC080070DE0B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0C6C8414B8BC080070DE0B /* icon.png */; };
 		4D0C6C8714B8BC080070DE0B /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0C6C8614B8BC080070DE0B /* icon@2x.png */; };
 		4D0C6C8914B8BC080070DE0B /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0C6C8814B8BC080070DE0B /* icon-72.png */; };
@@ -38,10 +37,12 @@
 		4D0C6CA314B8C6460070DE0B /* BowmarIcon57.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0C6CA214B8C6460070DE0B /* BowmarIcon57.png */; };
 		4D0C6CA514B8C6820070DE0B /* BowmarIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0C6CA414B8C6820070DE0B /* BowmarIcon.png */; };
 		4D0C6CA714B8C78E0070DE0B /* BowmarIcon72.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0C6CA614B8C78E0070DE0B /* BowmarIcon72.png */; };
-		4D0C6CA914B8C9D70070DE0B /* www in Resources */ = {isa = PBXBuildFile; fileRef = 4D0C6CA814B8C9D70070DE0B /* www */; };
 		4D3EE0EE14C0D8FA0054D17C /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3EE0ED14C0D8FA0054D17C /* EventKitUI.framework */; };
 		4DE01D4114BFC91000BDBAF7 /* AddEventPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE01D4014BFC91000BDBAF7 /* AddEventPlugin.m */; };
 		4DE01D4614C0CE6E00BDBAF7 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE01D4514C0CE6E00BDBAF7 /* EventKit.framework */; };
+		BC75ADA914C1510800E0A69F /* BowmarChurch.png in Resources */ = {isa = PBXBuildFile; fileRef = BC75ADA814C1510800E0A69F /* BowmarChurch.png */; };
+		BC75ADAB14C1514400E0A69F /* BowmarChurch57.png in Resources */ = {isa = PBXBuildFile; fileRef = BC75ADAA14C1514400E0A69F /* BowmarChurch57.png */; };
+		BC75ADAD14C1652B00E0A69F /* www in Resources */ = {isa = PBXBuildFile; fileRef = BC75ADAC14C1652B00E0A69F /* www */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +87,9 @@
 		4DE01D3F14BFC91000BDBAF7 /* AddEventPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddEventPlugin.h; sourceTree = "<group>"; };
 		4DE01D4014BFC91000BDBAF7 /* AddEventPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddEventPlugin.m; sourceTree = "<group>"; };
 		4DE01D4514C0CE6E00BDBAF7 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		BC75ADA814C1510800E0A69F /* BowmarChurch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BowmarChurch.png; sourceTree = "<group>"; };
+		BC75ADAA14C1514400E0A69F /* BowmarChurch57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BowmarChurch57.png; sourceTree = "<group>"; };
+		BC75ADAC14C1652B00E0A69F /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +129,9 @@
 		4D0C6C4314B8BC060070DE0B = {
 			isa = PBXGroup;
 			children = (
+				BC75ADAC14C1652B00E0A69F /* www */,
+				BC75ADAA14C1514400E0A69F /* BowmarChurch57.png */,
+				BC75ADA814C1510800E0A69F /* BowmarChurch.png */,
 				4D3EE0ED14C0D8FA0054D17C /* EventKitUI.framework */,
 				4DE01D4514C0CE6E00BDBAF7 /* EventKit.framework */,
 				4D0C6CA814B8C9D70070DE0B /* www */,
@@ -312,9 +319,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC75ADAD14C1652B00E0A69F /* www in Resources */,
 				4D0C6C7414B8BC080070DE0B /* InfoPlist.strings in Resources */,
 				4D0C6C7E14B8BC080070DE0B /* Localizable.strings in Resources */,
-				4D0C6C8214B8BC080070DE0B /* Localizable.strings in Resources */,
 				4D0C6C8514B8BC080070DE0B /* icon.png in Resources */,
 				4D0C6C8714B8BC080070DE0B /* icon@2x.png in Resources */,
 				4D0C6C8914B8BC080070DE0B /* icon-72.png in Resources */,
@@ -327,7 +334,8 @@
 				4D0C6CA314B8C6460070DE0B /* BowmarIcon57.png in Resources */,
 				4D0C6CA514B8C6820070DE0B /* BowmarIcon.png in Resources */,
 				4D0C6CA714B8C78E0070DE0B /* BowmarIcon72.png in Resources */,
-				4D0C6CA914B8C9D70070DE0B /* www in Resources */,
+				BC75ADA914C1510800E0A69F /* BowmarChurch.png in Resources */,
+				BC75ADAB14C1514400E0A69F /* BowmarChurch57.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

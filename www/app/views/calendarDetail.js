@@ -74,17 +74,37 @@ Bowmar.views.calendarDetail = new Ext.Panel({
             text:'Add to your Calendar',
             style: {marginTop: '20px'},
             handler: function(){
-                AddEventPlugin.nativeFunction(
-                    ["HelloWorld"],
-                    function(result){
-                        alert("Success");
-                    },
-                    function(error){
-                        alert("Error");
-                    }
+
+                var d = this.up().eventItem;
+
+                //var t = d.get('title');
+                //var det = d.get('details');
+                //var st = d.get('when')[0];
+//                var parameters = [
+//                    d.get('title'),
+//                    d.get('details'),
+//                    d.get('when')[0].start,
+//                    d.get('when')[0].end
+//                ];
+           
+           var title = d.get('title');
+           var details = d.get('details');
+           var start = d.get('when')[0].start;
+           var end = d.get('when')[0].end;
+
+                window.plugins.AddEventPlugin.AddEvent(title,details,start,end);
+           
+//                AddEventPlugin.nativeFunction(
+//                    parameters,
+//                    function(result){
+//                        alert("Success");
+//                    },
+//                    function(error){
+//                        alert("Error");
+//                    }
                     //Ext.util.createDelegate(this.addEventSuccess, this),
                     //Ext.util.createDelegate(this.addEventFailure,this)
-                );
+//                );
             }
         }
     ],
@@ -103,7 +123,7 @@ Bowmar.views.calendarDetail = new Ext.Panel({
 
     setEvent: function(calendarItem)
     {
-        eventItem = calendarItem;
+        this.eventItem = calendarItem;
         return this.details.setEvent(calendarItem);
     },
 

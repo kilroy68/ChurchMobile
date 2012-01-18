@@ -13,23 +13,74 @@
 
 @synthesize callbackID;
 
-- (void) AddEvent:(NSMutableArray*)arguments withDict:(NSMutableDictionary*)options;
+- (void) AddEvent:(NSMutableArray*)arguments withDict:(NSMutableDictionary*)options
 {
-    @try{
-        EKEventStore *eventStore = [[EKEventStore alloc] init];
+
+    NSString* title = [options valueForKey:@"title"];
+    NSString* description = [options valueForKey:@"description"];
+    NSString* startDateS = [options valueForKey:@"startdatetime"];
+    NSString* endDateS = [options valueForKey:@"enddatetime"];
     
-        EKEvent *event  = [EKEvent eventWithEventStore:eventStore];
-        event.calendar = [eventStore defaultCalendarForNewEvents];
-        event.title     = @"EVENT TITLE";
-        event.startDate = [[NSDate alloc] init];
-        event.endDate   = [[NSDate alloc] initWithTimeInterval:600 sinceDate:event.startDate];
+    EKEventStore *eventStore = [[EKEventStore alloc] init];
     
-        NSError *err;
-        [eventStore saveEvent:event span:EKSpanThisEvent error:&err]; 
+    EKEvent *event  = [EKEvent eventWithEventStore:eventStore];
+    event.calendar = [eventStore defaultCalendarForNewEvents];
+    event.title     = title;
+    event.location = @"Bowmar Baptist Church";
+    
+    if(description != nil){
+        event.notes = description;
     }
-    @catch (NSException *ex) {
-        return;
+    
+    
+    NSDateFormatter *parser = [[NSDateFormatter alloc] init];
+    [parser setLocale: [[NSLocale alloc] initWithLocaleIdentifier:@"en_US_POSIX"]];
+    [parser setDateFormat:@"EEE MMM dd yyyy hh:mm:ss zzz '(CST)'"];
+    //[parser setDateFormat:@"yyyy-MM-dd hh:mm:ss.SSS"];
+    //[parser setDateFormat:@"EEE, dd MMM yyyy HH:mm:ss '+0000'"];
+    
+    //NSDate *sdt = [parser dateFromString: @"Tue, 23 Nov 2010 16:14:14 +0000"];
+    NSDate *sdt = [parser dateFromString: startDateS];
+    event.startDate = sdt;
+    event.endDate   = [parser dateFromString: endDateS];
+    
+    
+    EKEventEditViewController* controller = [[EKEventEditViewController alloc] init];
+    
+    controller.eventStore = eventStore;
+    controller.event = event;
+    controller.editViewDelegate = self;
+    
+    [[super appViewController] presentModalViewController: controller animated:YES];
+    [controller.view endEditing:TRUE];
+    
+}
+
+- (void)eventEditViewController:(EKEventEditViewController *)controller didCompleteWithAction:(EKEventEditViewAction)action
+{
+    
+    int webviewResult = 0;
+    
+    switch (action) {
+        case EKEventEditViewActionCanceled:
+            webviewResult = 0;
+            break;
+        case EKEventEditViewActionSaved:
+            webviewResult = 1;
+            break;
+        case EKEventEditViewActionDeleted:
+            webviewResult = 0;
+            break;
+        default:
+            webviewResult = 0;
+            break;
     }
+    
+    [[super appViewController] dismissModalViewControllerAnimated:YES];
+    
+    NSString* jsString = [[NSString alloc] initWithFormat:@"window.plugins.AddEventPlugin._didFinishWithResult(%d)",webviewResult];
+    [self writeJavascript:jsString];
+    
 }
 
 @end

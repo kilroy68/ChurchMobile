@@ -56,7 +56,7 @@ Bowmar.views.Calendar = Ext.extend(Ext.List, {
                 //sorters: 'when[0].sortableDate',
 
                 proxy: new Ext.data.ScriptTagProxy({
-                    url: 'https://www.google.com/calendar/feeds/ikv2s8iq4f8d7enmqlpsahi6tk@group.calendar.google.com/public/full?v=1.0&num=-1&max-results=100&alt=jsonc&orderby=starttime&sortorder=ascending&singleevents=true&start-min=2012-01-01&start-max=2013-01-01',
+                    url: 'https://www.google.com/calendar/feeds/ikv2s8iq4f8d7enmqlpsahi6tk@group.calendar.google.com/public/full?v=1.0&num=-1&max-results=10&alt=jsonc&orderby=starttime&sortorder=ascending&singleevents=true&start-min=2012-01-01&start-max=2013-01-01',
                     //url: 'https://www.google.com/calendar/feeds/ikv2s8iq4f8d7enmqlpsahi6tk@group.calendar.google.com/public/composite?v=1.0&num=-1&alt=jsonc&orderby=starttime&sortorder=ascending&singleevents=true&recurrence-expansion-start=2012-1-1&recurrence-expansion-stop=2013-1-1',
                     //url: 'https://www.google.com/calendar/feeds/ikv2s8iq4f8d7enmqlpsahi6tk@group.calendar.google.com/public/composite&recurrence-expansion-start:2012-1-1&recurrence-expansion-stop=2013-1-1',
                     extraParams: {

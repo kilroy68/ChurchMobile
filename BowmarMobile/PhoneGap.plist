@@ -24,7 +24,7 @@
 	</array>
 	<key>Plugins</key>
 	<dict>
-		<key>mil.army.usace.erdc.addevent</key>
+		<key>AddEventPlugin</key>
 		<string>AddEventPlugin</string>
 		<key>com.phonegap.accelerometer</key>
 		<string>PGAccelerometer</string>
