@@ -35,6 +35,20 @@ Ext.regApplication({
             console.log(ex.stack);
         }
         //this.viewport = new Bowmar.Viewport();
-    }
+    },
+    profiles: {
+                portraitPhone: function() {
+                   return Ext.is.Phone && Ext.orientation == 'portrait';
+                },
+                landscapePhone: function() {
+                   return Ext.is.Phone && Ext.orientation == 'landscape';
+                },
+                portraitTablet: function() {
+                   return !Ext.is.Phone && Ext.orientation == 'portrait';
+                },
+                landscapeTablet: function() {
+                   return !Ext.is.Phone && Ext.orientation == 'landscape';
+                }
+            }
 });
 
