@@ -1,9 +1,3 @@
-//  var name = {
-//            xtype: 'panel',
-//                       html: '<h1>Bowmar Baptist Church</h1>',
-//                       flex:3
-//                           };
-
     Bowmar.views.Home = Ext.extend(Ext.Panel, {
                                title: "Home",
                                iconCls: "home",
@@ -14,33 +8,22 @@
                                initComponent: function() {
                                     Ext.apply(this, {
                                               defaults : {
-//                                                xtype:'button',
                                                 xtype:'panel',
-//                                                width:'200',
-//                                                text:"Text Missing",
                                                 flex:1
-//                                                style:{marginBottom:'15px'}
                                               },
                                               items: [
-                                                //name, missionStatementButton, staffButton, announcementsButton
-                                                      {//xtype: 'panel', 
-//                                                        html:'<h2>Bowmar Baptist Church</h2>',
-                                                        flex:3,
+                                                      {flex:3,
                                                         layout:'vbox',
                                                       width:'100%',
                                                       defaults: {xtype:'panel', flex:1, style:{marginBottom:'15px'}},
                                                       items: [{},{html:'<h2>Bowmar Baptist Church</h2>'},{}]
                                                       },
-                                                      {items:[{xtype:'button', /*style: 'font-family: \'CalligraffitiRegular\', Arial, sans-serif;',*/text: "Mission Statement", width:'200'}]},
+                                                      {items:[{xtype:'button', text: "Mission Statement", width:'200'}]},
                                                       {items:[{xtype:'button', text: "Staff", width:'200'}]},
                                                       {items:[{xtype:'button', text: "Announcements", width:'200'}], style:{marginTop: '50px'}}
                                               ],
-                                              //style: 'background: url(\'./app/images/blue_vines.png\');background-size:100% 100%;'
-                                              //style: 'background: url(\'./app/images/blue_vines.png\');background-size:contain;background-repeat:no-repeat;background-position:center center;'
                                               cls: 'home-panel'
                                      });
-                                   
-                                   //this.cls = 'home-panel';
                                    
                                    //below should be able to change backgrounds but doesn't for some reason
                                    /*this.setProfile = function (profile) {

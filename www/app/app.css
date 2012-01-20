@@ -60,8 +60,9 @@
 {
     color:LightGray;
     text-align:center;
-    font-weight:bolder;
+    font-weight:normal;
     font-family: 'CalligraffitiRegular', Arial, sans-serif;
+    -webkit-text-stroke:2px LightGray;
 }
 
 .home-panel
